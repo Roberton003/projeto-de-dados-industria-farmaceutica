@@ -30,6 +30,9 @@ manutenção.</b></p>
 - **Dois papéis nunca se confundem:** este repositório cobre *como os dados são coletados, integrados,
   armazenados, processados e disponibilizados* — não indicadores de negócio (Análise de Dados) nem
   viabilidade de Machine Learning (Ciência de Dados), que são investigações separadas.
+- **Continuidade além do técnico.** O roteiro também cobre o que garante que o trabalho continue de pé
+  depois da entrega — transferência de conhecimento, critério de aceite do cliente e adoção organizacional —
+  não só se o sistema funciona tecnicamente.
 
 ## 📚 Documentos deste repositório
 

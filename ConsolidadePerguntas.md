@@ -202,6 +202,38 @@ natureza.
   **O que fazemos com a resposta:** Define como a coleta precisa se comportar quando a conexão cai — e evita
   ter que renomear tudo depois.
 
+### Perguntas de continuidade do projeto
+
+Essas quatro não são sobre como o sistema funciona tecnicamente — são sobre o que garante que o trabalho
+continue de pé depois que o levantamento terminar.
+
+- **Pergunta:** Ao lidar com dado que identifica uma pessoa (como operador em log de produção), existe um
+  acordo formal definindo essa responsabilidade entre as partes?
+  **Por quê:** Não é só sobre a postura de privacidade do cliente — é sobre a nossa própria responsabilidade
+  ao lidar com esse dado.
+  **O que fazemos com a resposta:** Define se precisamos formalizar esse acordo antes de tocar qualquer dado
+  pessoal.
+
+- **Pergunta:** Quem vai operar o que for construído depois que este trabalho terminar, e como garantimos
+  que essa pessoa/time recebe o conhecimento necessário?
+  **Por quê:** Uma solução tecnicamente correta que ninguém sabe operar depois vira um problema novo, não
+  uma solução.
+  **O que fazemos com a resposta:** Define o plano de transferência de conhecimento, não só a entrega técnica.
+
+- **Pergunta:** O que você (cliente) considera "entregue e aceito"? É a mesma coisa que nosso critério
+  técnico de conclusão, ou é diferente?
+  **Por quê:** Um projeto pode estar tecnicamente pronto e ainda não ser aceito, se ninguém combinou o
+  critério com antecedência.
+  **O que fazemos com a resposta:** Alinha nosso critério de conclusão com o do cliente antes de declarar o
+  trabalho pronto.
+
+- **Pergunta:** Além de quem abriu o projeto, quem mais precisa "comprar a ideia" para a mudança realmente
+  pegar no dia a dia?
+  **Por quê:** Resistência de quem usa o sistema é uma das causas mais comuns de projeto tecnicamente pronto
+  que não é adotado.
+  **O que fazemos com a resposta:** Define quem mais precisa ser envolvido, além do patrocinador inicial,
+  para a mudança realmente acontecer.
+
 ---
 
 ## A pergunta que fazemos pra todo mundo, sempre
