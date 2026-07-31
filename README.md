@@ -20,11 +20,11 @@ manutenção.</b></p>
 
 - **Nada de arquitetura antes de reduzir incerteza.** Nenhuma ferramenta, plataforma ou stack é escolhida
   enquanto as perguntas abaixo não tiverem resposta real de stakeholder — não suposição do time técnico.
-- **Verificação cruzada obrigatória.** Todo levantamento passa por uma segunda execução independente antes
-  de ser aceito como pronto — já comprovamos, neste mesmo case, que a primeira resposta sozinha deixa passar
+- **Revisão em dupla obrigatória.** Todo levantamento passa pela leitura crítica de um segundo colega antes
+  de ser aceito como pronto — já comprovamos, neste mesmo case, que a primeira versão sozinha deixa passar
   gaps reais (ex.: fronteira de rede industrial, privacidade de dado pessoal).
-- **Cada pergunta tem heurística ou motivo real por trás**, nunca "achismo do consultor" — rastreável até uma
-  fonte técnica curada ou uma execução anterior concreta.
+- **Cada pergunta tem um motivo documentado**, nunca "achismo do consultor" — se a resposta não muda nenhuma
+  decisão concreta, a pergunta não entra no roteiro.
 - **Handoff explícito para arquitetura.** Cada resposta de Discovery já aponta para a decisão técnica
   específica que ela destrava — quando chegar a hora de desenhar a solução, o time não começa do zero.
 - **Dois papéis nunca se confundem:** este repositório cobre *como os dados são coletados, integrados,
@@ -46,7 +46,7 @@ flowchart TD
     A[Case original / PDF] --> B["Interpretação inicial\ndo problema"]
     B --> C["Perguntas por stakeholder\n(ConsolidadePerguntas.md)"]
     C --> D{"Entrevistas reais\ncom o cliente"}
-    D --> E["Verificação cruzada\n(segunda execução independente)"]
+    D --> E["Revisão em dupla\n(segundo colega antes de aceitar)"]
     E --> F{"Divergência encontrada?"}
     F -->|Sim, é lacuna real| C
     F -->|Não| G["Discovery concluído\n(critérios objetivos atendidos)"]
